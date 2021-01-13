@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>   
+    <script src="../js/jquery.easing.1.3.js"></script>   
+    <script src="../js/aos.js"></script>
+    <title>Document</title>
+    <script type="text/javascript">      
+        $(document).ready(function(){ 
+            $("#head").load("sub_header5.html");
+            $("#four").load("sub_footer5.html");
+            
+            var cont1btn =document.getElementById("cont1");
+            cont1btn.onclick =function(){
+                document.getElementById("video").firstElementChild.src ="https://www.youtube.com/embed/aLLtvhNARyw";
+                $("#cont1").toggleClass("on");
+                $("#cont2, #cont3").removeClass("on");
+            }
+            var cont2btn =document.getElementById("cont2");
+            cont2btn.onclick =function(){
+                document.getElementById("video").firstElementChild.src ="https://www.youtube.com/embed/gVtdpnm2pcI";
+                $("#cont2").toggleClass("on");   
+                $("#cont1, #cont3").removeClass("on");
+            }
+            var cont3btn =document.getElementById("cont3");
+            cont3btn.onclick =function(){
+                document.getElementById("video").firstElementChild.src ="https://www.youtube.com/embed/QaO5wy3c2T8";
+                $("#cont3").toggleClass("on");  
+                $("#cont1, #cont2").removeClass("on");
+            }
+        }); 
+    </script>
+</head>
+<body>
+   <div id="wrap">
+        <div id="head"></div>
+        <div id="side">
+            <div class="side">
+                05<span class="s_line"></span>video
+            </div>
+        </div>
+        <div class="cont_wrap" data-aos="fade-up" data-aos-duration="3000">
+            <div class="cont_video">
+                <div class="title">VIDEO</div>
+                <div class="grllery_list dnone" id="1">
+                <div class="s_video" id="video">
+                    <iframe width="1278" height="719" src="https://www.youtube.com/embed/aLLtvhNARyw" frameborder="0"></iframe>
+                </div>
+                <div class="new_release_list vd_list">
+                    <div class="cont on" id="cont1">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/aLLtvhNARyw/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>드라마 구미호뎐 마지막 촬영현장</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cont" id="cont2">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/gVtdpnm2pcI/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>드라마 구미호뎐 촬영 현장</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cont" id="cont3">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/QaO5wy3c2T8/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>드라마 구미호뎐 비하인드 스토리</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <script type="text/javascript">      
+                    $(document).ready(function(){ 
+                        var cont4btn =document.getElementById("cont4");
+                        cont4btn.onclick =function(){
+                            document.getElementById("video1").firstElementChild.src ="https://www.youtube.com/embed/e59bn38kmBs";
+                            $("#cont4").toggleClass("on");
+                            $("#cont5, #cont6").removeClass("on");
+                        }
+                        var cont5btn =document.getElementById("cont5");
+                        cont5btn.onclick =function(){
+                            document.getElementById("video1").firstElementChild.src ="https://www.youtube.com/embed/XdtgycF3Hto";
+                            $("#cont5").toggleClass("on");   
+                            $("#cont4, #cont6").removeClass("on");
+                        }
+                        var cont6btn =document.getElementById("cont6");
+                        cont6btn.onclick =function(){
+                            document.getElementById("video1").firstElementChild.src ="https://www.youtube.com/embed/QjQl6KfpHbQ";
+                            $("#cont6").toggleClass("on");  
+                            $("#cont4, #cont5").removeClass("on");
+                        }
+                    }); 
+                </script>
+                <div class="grllery_list dnone" id="2">
+                <div class="s_video" id="video1">
+                    <iframe width="1278" height="719" src="https://www.youtube.com/embed/e59bn38kmBs" frameborder="0"></iframe>
+                </div>
+                <div class="new_release_list vd_list">
+                    <div class="cont on" id="cont4">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/e59bn38kmBs/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>매거진 퍼스트룩 촬영현장</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cont" id="cont5">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/XdtgycF3Hto/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>매거진 데이즈드 촬영현장</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cont" id="cont6">
+                        <a href="javascript:;">
+                            <div class="img">
+                                <img src="http://img.youtube.com/vi/QjQl6KfpHbQ/0.jpg" alt="">
+                                <div class="list_hover">
+                                <img src="../images/Artist_img/ohmygirl/PLAY.png" alt="자세히 보기">
+                            </div>
+                            </div>
+                            <div class="txt">
+                                <p>매거진 데이즈드 촬영현장</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="page_button">
+                    <button type="button" class="p_btn"><img src="../images/Artist_img/ohmygirl/btn_prevpage.png" alt="이전"></button>
+                    <span class="number"><strong>1</strong>/<em>2</em></span>
+                    <button type="button" class="n_btn"><img src="../images/Artist_img/ohmygirl/btn_nextpage.png" alt="이후"></button>
+                </div>
+            </div>
+        </div>
+        <div id="four"></div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<script type="text/javascript" src="../js/page.js"></script>
+</html>
