@@ -37,7 +37,6 @@ body.bgon{
     display: block;
 }
 .sub li a{
-    color: black;
     font-size: 16px;
     line-height: 20px;
 }
@@ -45,7 +44,6 @@ body.bgon{
     padding-left: 25px;
     display: none;
 }
-
 
 #header .sns{
     text-align: center;
@@ -76,3 +74,90 @@ body.bgon{
 #header .sns li a{
     font-size: 24px;
 }
+
+.ham{
+    position: fixed;
+    top: 40px;
+    right: 15px;
+    z-index: 999;
+    display: none;
+}
+.ham>a{
+    display: block;
+}
+.ham img{
+    width: 30px;
+    height: 26px;
+}
+
+
+/* 메뉴버튼 클릭시 Header */
+#gnbon{
+    position: fixed;
+    z-index: 999;
+    top: 120px;
+    left: 40px;
+    display: none;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+#gnbon>li{
+    height: 120px;
+}
+#gnbon>li>a:hover{
+    text-decoration: underline;
+}
+#gnbon>li>a{
+    color: black;
+    display: block;
+    overflow: hidden;
+}
+.down2on{
+    text-decoration: underline;
+}
+#gnbon>li>a>span>i{
+    color: black;
+    font-size: 24px;
+}
+.subon{
+    display: none;
+    font-size: 14px;
+}
+#gnbon>li>.on{
+    display: block;
+}
+.subon>li{
+    height: 25px;
+}
+.subon>li>a{
+    display: block;
+}
+.subon>li>a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:767px){
+    /* Header */
+    #header .gnb{
+        display: none;
+    }
+
+    #header .sns{
+        text-align: center;
+        width: 20px;
+        position: fixed;
+        top: 750px;
+        right: 20px;
+    }
+    #header .sns li a{
+        font-size: 18px;
+    }
+
+    .ham{
+        display: block;
+    }
+}
+
